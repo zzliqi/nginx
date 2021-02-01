@@ -1,0 +1,147 @@
+<!-- ###########################################################################
+ # File: /public/compatibility/unsupport.html
+ # Project: hydrogen
+ # Created Date: 2018-10-31 09:49:44
+ # Author: guog(guo gang<guog@live.cn>)
+ # Copyright (c) 2018 Hollysys Group
+ # Website: http://www.hollysys.com/
+ # -----------------------------------------------------------------------------
+ # Task No: #78
+ # Module No:
+ # Module Name: 浏览器兼容性
+ # -----------------------------------------------------------------------------
+ # 对于不支持的浏览器提示页面
+############################################################################ -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>当前浏览器不被支持</title>
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge" />
+    <meta name="format-detection"
+          content="telephone=no" />
+    <meta name="format-detection"
+          content="email=no" />
+    <meta name="apple-mobile-web-app-capable"
+          content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style"
+          content="black" />
+    <meta name="full-screen"
+          content="yes">
+    <meta name="browsermode"
+          content="application">
+    <meta name="x5-orientation"
+          content="portrait">
+    <meta name="x5-fullscreen"
+          content="true">
+    <meta name="x5-page-mode"
+          content="app">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,minimal-ui">
+    <!--[if IE]>
+  <script type="text/javascript">
+    var unsupport = true;
+  </script>
+  <![endif]-->
+    <!-- <script type="text/javascript">
+      if (typeof unsupport === 'undefined') {
+        location.href = '/'
+      }
+    </script> -->
+    <link rel="stylesheet"
+          href="css/unsupport.css">
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>
+        升级浏览器，升级你的浏览体验.<br />
+        Upgrade your browser and upgrade your browsing experience.
+      </h1>
+      <table class="browsers">
+        <tr>
+          <td>
+            &nbsp;
+          </td>
+          <td>
+            <a class="clearfix"
+               href="https://www.google.cn/chrome/"
+               target="_blank">
+              <img src="images/chrome.png"
+                   alt="Download Chrome">
+              <p>Chrome</p>
+            </a>
+          </td>
+          <td>
+            &nbsp;
+          </td>
+          <!--  <td>
+            <a class="clearfix"
+               href="software/firefox_setup.exe"
+               target="_blank">
+              <img src="images/firefox.png"
+                   alt="Download Firefox">
+              <p>Firefox</p>
+            </a>
+          </td>
+          <td>
+            <a class="clearfix"
+               href="http://www.apple.com/cn/safari/"
+               target="_blank">
+              <img src="images/safari.png"
+                   alt="Download Safari">
+              <p>Safari</p>
+            </a>
+          </td>
+          <td>
+            <a class="clearfix"
+               href="software/opera_setup.exe"
+               target="_blank">
+              <img src="images/opera.png"
+                   alt="Download Opera">
+              <p>Opera</p>
+            </a>
+          </td> -->
+        </tr>
+      </table>
+      <div class="suggestion">
+        <table>
+          <tr>
+            <td class="words"
+                width="100%">
+              <p>您的浏览器好像有点过时了。</p>
+              <p>Your browser seems out of date.</p>
+              <p>为了您正常使用 ，建议安装
+                <a href="https://www.google.cn/chrome/"
+                   target="_blank">
+                  Chrome
+                </a>
+                浏览器。
+              </p>
+              <p>For your normal use, it is recommended to install the
+                <a href="https://www.google.cn/chrome/"
+                   target="_blank">
+                  Chrome
+                </a>
+                browser.
+              </p>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="footer">
+        <!--<img src="https://dn-coding-net-production-static.qbox.me/static/a042d59d581d72c415d27655ec37be93.png" alt="">-->
+        <p>Copyright&nbsp;&nbsp;&copy;&nbsp;&nbsp;2018&nbsp;&nbsp;HollySys </p>
+      </div>
+    </div>
+    <script src="js/DD_belatedPNG-min.js"></script>
+    <script type="text/javascript">
+      /* eslint-disable no-undef */
+      /* 解决ie6不支持png格式图片的问题 */
+      DD_belatedPNG.fix('img')
+    </script>
+  </body>
+
+</html>
